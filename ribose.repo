@@ -1,0 +1,6 @@
+[ribose]
+name=Ribose Packages - $basearch
+baseurl=https://raw.githubusercontent.com/riboseinc/yum/master/RPMS/$basearch/
+enabled=1
+#gpgkey=https://production-yum.s3-us-west-2.amazonaws.com/my-gpg-key
+#gpgcheck=1
