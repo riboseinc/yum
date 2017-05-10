@@ -32,8 +32,8 @@
   <location href="repodata/09c4ea84f8f07193f2aa6cb78cbb1413d1e1ccc211eda29a366542c50569e3ff-other.sqlite.bz2"/>
   <timestamp>1494189193</timestamp>
   <database_version>10</database_version>
-  <size>3061</size>
-  <open-size>15360</open-size>
+  <size>4453</size>
+  <open-size>20480</open-size>
 </data>
 <data type="other">
   <checksum type="sha256">c1fb912610e67bc363c4e61e9bd26826fb8747a9514c3c0213aaa8415ad99430</checksum>
@@ -49,7 +49,7 @@
   <location href="repodata/bae2bb6885adeaa861ac1a8a26c6fb5133e0d05098bece592af2de8ebcf90801-filelists.sqlite.bz2"/>
   <timestamp>1494189193</timestamp>
   <database_version>10</database_version>
-  <size>5092</size>
-  <open-size>21504</open-size>
+  <size>11270</size>
+  <open-size>44032</open-size>
 </data>
 </repomd>
