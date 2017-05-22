@@ -27,7 +27,58 @@ curl -L https://github.com/riboseinc/yum/raw/master/ribose.repo > /etc/yum.repos
 e.g.,
 
 ```
-yum install netpgp
+yum install rnp
+```
+
+### Ruby
+
+The commands are funny because this package does not have a unique name.
+
+``` sh
+yum install -y openssl libyaml
+yum install -y --disablerepo=* --enablerepo=ribose ruby
+```
+
+### json-c12
+
+``` sh
+yum install -y json-c12
+```
+
+### Erlang
+
+``` sh
+yum install -y erlang-R15B01
+```
+
+### exmpp
+
+``` sh
+yum install -y erlang-exmpp
+```
+
+### libgsf
+
+The commands are funny because this package does not have a unique name.
+
+``` sh
+yum install -y http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
+yum install -y pygtk2-devel
+yum install -y --disablerepo=* --enablerepo=ribose libgsf
+```
+
+### vips
+
+The commands are funny because this package does not have a unique name.
+
+``` sh
+yum install -y http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
+yum install -y ImageMagick6-libs OpenEXR-libs cfitsio fftw-libs-double fribidi \
+  gd ghostscript ghostscript-fonts giflib graphviz hdf5 ilmbase libXaw libXmu \
+  libXpm libXt libexif libgfortran libgsf libquadmath libraqm librsvg2 \
+  libwebp libwmf-lite matio openjpeg-libs openslide orc poppler \
+  poppler-glib urw-fonts
+yum install --disablerepo=* --enablerepo=ribose vips
 ```
 
 # Problems / Feedback
