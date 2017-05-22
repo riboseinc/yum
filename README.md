@@ -8,6 +8,13 @@ This Yum repository contains packages maintained by
 
 Follow the steps below to use the Ribose yum repository.
 
+## Quickstart
+
+```
+rpm --import https://github.com/riboseinc/yum/raw/master/ribose-packages.pub
+curl -L https://github.com/riboseinc/yum/raw/master/ribose.repo > /etc/yum.repos.d/ribose.repo
+```
+
 ## Import the Ribose Packaging PGP key
 
 ```
