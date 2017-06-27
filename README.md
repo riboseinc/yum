@@ -39,6 +39,17 @@ yum install rnp
 
 ### Ruby
 
+#### Ruby via rbenv
+
+This installs `rbenv` and Ruby 2.3.4 under its framework without needing
+for compilation.
+
+``` sh
+yum install -y rbenv ruby-build rbenv-ruby-2.3.4
+```
+
+#### Just Ruby
+
 The commands are funny because this package does not have a unique name.
 
 ``` sh
