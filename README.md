@@ -80,13 +80,13 @@ yum install -y erlang-xmlrpc
 ## mydumper
 
 ``` sh
-yum install -y botan2
+yum install -y mydumper
 ```
 
 ## parallel
 
 ``` sh
-yum install -y botan2
+yum install -y parallel
 ```
 
 
